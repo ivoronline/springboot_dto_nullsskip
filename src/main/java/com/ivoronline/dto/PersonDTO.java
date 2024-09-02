@@ -7,7 +7,7 @@ public class PersonDTO {
 
   //PROPERTIES
   @JsonSetter(nulls = Nulls.SKIP)
-  public String  name = "unknown";
+  public String  name = "Unknown";
   public Integer age;
   
 }
